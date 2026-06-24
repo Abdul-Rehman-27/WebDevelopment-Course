@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!--External Css (Lowest Priority Lower than both inline css and internal css)-->
+    <link rel="stylesheet" href="2-Including-Style.css">
+    <title>Document</title>
+    
+    <!--Internal Css (Medium Priority less than inline css and higher than external css)-->
+    <style>
+        h1{
+            background-color: red;
+        }
+    </style>
+  </head>
+  <body>
+
+    <!--Inline Css (Highest Priority than internal or externl css)-->
+    <h1 style="color: blue">Hello World</h1> 
+  </body>
+</html>

@@ -1,0 +1,17 @@
+#box{
+    background-color: #6B8A7A;
+}
+body{
+    background-color:#219C90;
+}
+.heading{
+    color:black;
+}
+.list{
+    /* display: flex;
+    row-gap: 500px; */
+    color: crimson;
+}
+button{
+    background-color: pink;
+}

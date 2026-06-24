@@ -1,0 +1,63 @@
+/* h1{
+    color: blueviolet;
+    background-color: black;
+} */
+
+.h1{
+    color:blueviolet;
+    font-style: italic;
+}
+body{
+    background-color: black;
+    /* background-color: rgb(255,0,0); */
+    /* background-color: #ff0000; */
+    /* background-color: #219C90; */
+    /* background-color: #102C57; */
+    background-color: antiquewhite;
+}
+.button{
+    color: blueviolet;
+    background-color:white;
+}
+#c2{
+    color: brown;
+}
+#paragraph{
+    text-align: center;
+    /* text-decoration: underline; */
+    text-decoration: brown underline;    
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* font-weight: bolder; */
+    font-family: arial;
+    /* font-size: 10px;
+    line-height: 10px; */
+    text-transform: uppercase;
+}
+p{
+    font-family: Segoe UI;
+}
+h1{
+    font-weight: normal;            
+}
+h2{
+    font-weight: lighter;
+}
+h3{
+    font-weight: bolder;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black ;
+    /* background-color: chartreuse; */
+    margin: 25px;
+    padding: 25px;
+    /* display: inline; */
+    display: inline-block;
+    background-color: rgba(255,0,0,0.7);
+}
+#box2{
+    /* display: none; */
+    visibility: hidden;
+}

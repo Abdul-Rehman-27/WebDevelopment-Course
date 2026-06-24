@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+
+<body>
+    <h1>Welcome to Html!</h1> <!--Most Important--->
+    <h6>Welocome to Htmll!</h6> <!--Least Important-->
+    <hr> <!--Divide to different part-->
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto accusamus cupiditate tenetur. Fugiat ea cumque
+        impedit incidunt vitae voluptatibus, fuga doloremque facilis alias rerum consequatur asperiores eaque adipisci,
+        necessitatibus nihil.</p> <!--Paragraph Tag-->
+    <hr>
+
+    <a href="https://www.wikipedia.org/">CLick Here to Check wikipedia<a> <!--Link of Websites-->
+            <br>
+            <a href="/relative.html">Relative Html</a> <!--Relative Link mean Within in wroking IdE-->
+            <hr>
+
+            <img src="/IMG_20220919_193234_238.jpg" alt="Human" height="200"> <!--Import Image-->
+            <hr>
+
+            <b>Hey Bold!</b>
+            <br>
+            <i>Hey Italic!</i>
+            <br>
+            <u>Hey UnderLine!</u>
+            <hr>
+
+            <big>Hey U Are Big</big>
+            <br>
+            <small>Hey U Are Small</small>
+            <hr>
+
+            <p>H<sub>2</sub>O</p>
+            <p>3<sup>2</sup>=9</p>
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Illo consequatur laborum voluptatum quaerat, assumenda aliquid doloribus officia cumque molestias
+                molestiae harum numquam? Fugit nesciunt tempore minus quia ratione at quam?</p>
+            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Illo consequatur laborum                   voluptatum quaerat, assumenda aliquid doloribus officia cumque molestias molestiae harum numquam? Fugit nesciunt tempore minus quia ratione at quam?</pre>
+            <!--As its is print-->
+            <hr>
+
+            <!-- Page LayOut Technique -->
+            <header>
+                <pre>
+                    <h1>Education      Projects</h1>
+                </pre>
+                <main>
+                    <section>Education : Ms SOftware Eng | Pre-Medical | Pre Mecical </section>
+                    <section>Experince : Ms Office | Ms Powerpoint</section>
+                    <article>My Story : A jounery to the Impossible</article>
+                    <aside>This is ads</aside>
+                </main>
+                <footer>
+                    <h5>Hello Contact Me at rehmank303014@gmial.com</h5>
+                </footer>
+            </header>
+            <hr>
+
+            <!--ANchor Tag-->
+            <a href="/relative.html" target="_main">Relative</a><br> <!--Open Webpage in new tab-->
+
+            <a href="https://www.wikipedia.org/"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png"
+                    height="50px"></a> <!--Website Through Image-->
+            <hr>
+
+            <div>This is Div</div>
+            <span>This is Span</span>
+            <hr>
+
+            <!--UL And Ol-->
+            <ul> <!--Make Bullets point-->
+                <li>Contact me!</li>
+                <ul>
+                    <li>Phone number</li>
+                    <li>Email</li>
+                </ul>
+                <li>About Me!</li>
+                <ul>
+                    <li>Job Experience</li>
+                    <li>Education</li>
+                </ul>
+                <li>My Portfolio</li>
+                <ul>
+                    <li>something</li>
+                </ul>
+            </ul>
+            <hr>
+
+            <ol> <!--Give numbers-->
+                <li>Contact me!</li>
+                <ul>
+                    <li>Phone number</li>
+                    <li>Email</li>
+                </ul>
+                <li>About Me!</li>
+                <ul>
+                    <li>Job Experience</li>
+                    <li>Education</li>
+                </ul>
+                <li>My Portfolio</li>
+                <ul>
+                    <li>something</li>
+                </ul>
+            </ol>
+            <hr>
+
+
+            <!--Table Header And Table Rows ,Data-->
+            <table>
+                <caption>Student Data</caption>
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Roll No.
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Yousaf Qazi
+                        </td>
+                        <td>
+                            FA23-BSE-030
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Haroon IJaz
+                        </td>
+                        <td>
+                            FA23-BSE-002
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!--Cols Span-->
+            <table>
+                <thead>
+                    <caption>Student Data</caption>
+                    <tr>
+                        <th colspan="2">
+                            Information
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Yousaf Qazi
+                        </td>
+                        <td>
+                            FA23-BSE-030
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Haroon IJaz
+                        </td>
+                        <td>
+                            FA23-BSE-002
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+
+            <!--Forms-->
+            <h3>Registration Form</h3>
+            <form action="/action.php">
+                <input type="text" placeholder="Enter your Name"><br>
+                <input type="text" placeholder="Enter Password"> <br> <!--Input Element-->
+                <br>
+
+                <label for="01"> <!--Label,when click on text it is applicable-->
+                    <input type="radio" value="Class XI" name="class" id="01">Class XI <!--oNE at a time-->
+                </label>
+                <label for="02"><input type="radio" value="Class XII" name="class" id="02">Class XII
+                </label>
+
+
+                <br>
+
+                <label for="101">
+                    <input type="checkbox" value="maths" name="subject" id="101">Math <!--For Multiple Options-->
+                </label>
+                <label for="102">
+                    <input type="checkbox" value="Physics" name="subject" id="102">Physics
+                </label>
+                <label for="103">
+                    <input type="checkbox" value="Chemistry" name="subject" id="103">Chemistry
+                </label>
+                <br>
+                <br>
+
+                <select name="city"> <!--Select,for Drop Down method-->
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Karachi">Karachi</option>
+                </select>
+                <br>
+                <br>
+
+                <textarea name="feedback" id="101" placeholder="Please Give us Your Feedback!"
+                    Rows="5">Feedback</textarea>
+                <br>
+                <br>
+
+                <input type="Submit" value="Submit"> <!--Button and SUbmit both are Same-->
+                <!-- <button>Submit</button> -->
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lFpl5S78JdY?si=_6P0hAEb57vLwwFe"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </form>
+            </form>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+/*Universal Selector*/
+*{
+    margin: 0;
+    padding: 0;
+    color: purple;
+}
+
+/*Element/tag Selectors*/
+h1{
+    color: green;       /*now h1 will be assigned color green coz green is applied after purple and its has high priority*/
+}
+
+button{
+    color: brown;
+}
+
+/*Id (unique) Selector*/
+#heading{
+    color: plum;
+}
+
+/*Class(can assign to multiple) Selector*/
+.myClass{
+    color: chartreuse;
+}

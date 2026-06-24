@@ -1,0 +1,17 @@
+----------------What is CSS-------------------
+CSS (Cascading Style Sheets) is used to style and design web pages — like adding colors, layouts, fonts, spacing, and making websites look good. 
+
+In short:
+HTML = structure, CSS = appearance.
+
+--Basic Syntax
+selector {
+  property: value;
+}
+
+--Example
+p {
+  color: red;
+  font-size: 16px;
+}
+

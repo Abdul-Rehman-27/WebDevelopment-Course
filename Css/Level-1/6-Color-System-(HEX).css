@@ -1,0 +1,19 @@
+/* 0-255 => 00-ff | 0-255 => 00-ff | 0-255 => 00-ff  (Red, Green, blue respectively*/
+
+body{
+    background-color: #ff0000; /*red*/
+}
+
+p{
+    background-color: #00ff00; /*green*/
+}
+
+button{
+    color: #0000ff; /*blue*/
+}
+
+h1{
+    color: #ffff00; /*yellow*/
+}
+
+/*Use color picker and color pallete website for this*/
