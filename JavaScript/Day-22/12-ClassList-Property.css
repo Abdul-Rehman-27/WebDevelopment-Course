@@ -1,0 +1,19 @@
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+#box1 {
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+    margin: 25px 0px 0px 100px;
+}
+
+#box2 {
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+    margin: 25px 0px 0px 100px;
+}
