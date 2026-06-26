@@ -17,3 +17,19 @@
     background-color: aqua;
     margin: 25px 0px 0px 100px;
 }
+
+.heading {
+    background-color: blue;
+    color: red;
+}
+
+.underline {
+    text-decoration: underline black;
+}
+
+.box1{
+    text-align: center;
+    color: brown;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
