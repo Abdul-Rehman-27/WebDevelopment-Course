@@ -1,0 +1,16 @@
+---------Practice Question---------
+Build a Student Report Card App in React where:
+
+Create a ReportCard component that accepts name, grade, marks, subjects (array), and isPassed (boolean, default true) as props
+
+If isPassed is true show marks, otherwise show "Fail" using ternary operator
+
+Render subjects array as a list using .map() with a key prop
+
+Apply dynamic background — lightgreen if marks >= 80, red if marks < 50, white otherwise using inline styles
+
+Create a ReportTab component that renders 2 ReportCard components directly with different student data
+
+Render ReportTab inside App.jsx in a <div id="main">
+
+Use default export in all components and import them correctly
