@@ -16,7 +16,7 @@ bdy.append(btn);
 Change placeholder value of input to "username"
 Change the id of button to "btn'
 */
-input.setAttribute("placeholder", "Enter name");
+input.setAttribute("placeholder", "Username");
 btn.setAttribute("id", "thisBtn");
 
 /*Qs3. Access the btn using the querySelector and button id. Change the button background

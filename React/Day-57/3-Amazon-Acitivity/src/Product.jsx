@@ -4,7 +4,8 @@ function Product({title, Description, idx}) {
     let newPrices = ["8,999", "9,199", "899", "278"];
     let description = [
         ["8,000 DPI", "5 Programmable Buttons"], 
-        ["Intutive Surface", "Designed for iPad Pro"], ["Designed for iPad Pro", "Intutive Surface"], 
+        ["Intutive Surface", "Designed for iPad Pro"], 
+        ["Designed for iPad Pro", "Intutive Surface"], 
         ["Wireless", "Optical Oreientation"]
     ];
     return (
